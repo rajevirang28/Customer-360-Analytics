@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Data files
+data/raw/*.csv
+data/processed/*.csv
+data/warehouse/*.csv
+
+# PostgreSQL dumps
+*.sql.gz
+*.dump
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Airflow
+airflow/logs/
+airflow/__pycache__/
